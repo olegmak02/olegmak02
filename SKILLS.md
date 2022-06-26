@@ -69,14 +69,14 @@
 | 🟩 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
 | 🟩 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
 | 🟩 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
-| 🟦 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
-| 🟦 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
+| 🟩 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
+| 🟩 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
 | ⬜ Cancelable callback | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool            |
 | ⬜ Cancelable Promise  | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool           |
-| 🟦 Asynchronous Queue  | 🟦 Callback hell               | 🟦 Race conditions  | 🟦 callbackify           |
+| 🟩 Asynchronous Queue  | 🟦 Callback hell               | 🟦 Race conditions  | 🟦 callbackify           |
 | ⬜ Future              | 🟦 Promise hell                | 🟦 Dead locks       | 🟦 promisify             |
 | ⬜ Deferred            |                                | 🟦 Live locks       | ⬜ IPC                   |
-| 🟦 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
+| 🟩 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
 | ⬜ Async Collector     |                                |                     | ⬜ Revealing Constructor |
 | ⬜ Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
